@@ -52,10 +52,25 @@ To solve these issues, this project introduces automation using Django.
 - Provides accurate and secure record keeping  
 - Accessible from anywhere  
 
+
+->How to run
+Step1: Clone the repository
+   git clone https://github.com/sanika-harish/library_management_system.git
+STEP 2: Move into your project folder
+cd library_management_system
+STEP 3: Create a virtual environment named venv
+python -m venv venv
+STEP 4: Activate the virtual environment
+venv\Scripts\activate     # (for Windows)
+STEP 5: Install Django
+pip install django
+STEP 6: Make database migrations
+python manage.py makemigrations
+python manage.py migrate
+STEP 7: Run the development server
+python manage.py runserve
+
 -> Future Scope
 - Development of a mobile application  
 - Adding email/SMS notifications for due dates  
 - Integration of QR code-based book tracking
-
-
-
