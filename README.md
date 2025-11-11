@@ -59,6 +59,3 @@ To solve these issues, this project introduces automation using Django.
 
 
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sanika-harish/library_management_system.git
